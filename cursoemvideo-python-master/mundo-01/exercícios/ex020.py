@@ -5,7 +5,7 @@ n3 = str(input('Terceiro aluno: '))
 n4 = str(input('Quarto aluno: '))
 lista = [n1, n2, n3, n4]
 shuffle(lista)
-print('A ordem de apresentação será ')
-print(lista)
+print('A ordem de apresentação será: {} '.format(lista))
+
 
 # SHUFFLE >>>  Embaralha a ordem da lista
